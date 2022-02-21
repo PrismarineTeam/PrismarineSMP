@@ -1,2 +1,5 @@
+import:
+    java.lang.Runtime
+    
 on load:
-  run cmd command "./ngrok tcp -region jp 25565"
+  Runtime.getRuntime().exec("./ngrok tcp -region jp 25565")
