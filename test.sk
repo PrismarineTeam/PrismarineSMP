@@ -1,5 +1,0 @@
-import:
-    java.lang.Runtime
-    
-on load:
-  Runtime.getRuntime().exec("./ngrok tcp -region jp 25565")
